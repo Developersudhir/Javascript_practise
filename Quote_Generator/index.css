@@ -5,18 +5,21 @@
 }
 .loader{
     background-color: #fff;
-    background-image: url('./loader_GIF.gif');
+    background-image: url('./img/loader_GIF.gif');
     position: fixed;
     width: 100%;
     height: 100vh;
     z-index: 999999;
     background-repeat: no-repeat;
     background-position: center;
-    visibility: hidden;            
+}
+.d-none{
+    display: none;
 }
 h1{
     text-align: center;
     margin-top: 1%;
+    color: rgb(247, 77, 77);
 }
 body{
     background-color: rgb(197, 238, 150);
@@ -28,11 +31,19 @@ body{
     margin: 5% 12%;
     border-radius: 25px;
     padding: 2%;
-    transition: 0.9s;
     cursor: pointer;
 }
-.inner-box:hover{
-    transform: scale(1.1);
+img#leftquote {
+    width: 2rem;
+    position: absolute;
+    top: 27%;
+    left: 28%;
+}
+img#rightquote {
+    width: 2rem;
+    position: absolute;
+    left: 68%;
+    top: 55%;
 }
 .outer-box{
     background-color: rgb(125, 238, 228);
@@ -41,7 +52,6 @@ body{
     margin: 6% auto;
     width: 60%;
     border-radius: 40px;
-    border: 2px solid black;
     box-shadow: 10px 20px 30px rgb(37, 35, 37);
 }
 .btn{
@@ -60,9 +70,7 @@ body{
     background-color: rgb(216, 101, 245);
 }
 p#quote{
-    /* background-color: black; */
-    /* color: white; */
-    margin: 3% 2%;
+    margin: 5% 2%;
     font-size: 1.3rem;
 }
 p#author{
@@ -77,4 +85,36 @@ p#author{
 }
 p#author:hover{
     border-bottom: 3px solid rgb(174, 60, 226);
+}
+
+ /* it is not fully  responsive ,just for Desktop & laptop */
+@media(max-width:1241px){
+    img#leftquote {
+        display: none;
+
+    }
+    img#rightquote {
+        display: none;
+    }
+    .btn{
+        top: 54%;
+    }
+}
+
+@media(max-width:1504px){
+    img#leftquote {
+        width: 2rem;
+         top: 25%;
+
+    }
+    img#rightquote {
+        width: 2rem;
+        top: 50%;
+    }
+    .btn{
+        top: 61%;
+    }
+    p#quote{
+        margin: 14% 2%;
+    }
 }

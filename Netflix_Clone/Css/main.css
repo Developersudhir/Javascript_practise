@@ -1,0 +1,294 @@
+* {
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #disp1 {
+            height: 100vh;
+            background-image: url('../images/main-section-background.jpg');
+            background-size: cover;
+            background-blend-mode: darken;
+            background-color: rgb(58 47 47 / 72%);
+            padding-top: 5px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #logo {
+            width: 8rem;
+            margin: 2%;
+        }
+
+        .btn-box {
+            margin-right: 2%;
+            margin-top: 1%;
+        }
+
+        .signform{
+            background-color: rgba(243, 52, 52, 0.836);
+            cursor: pointer;
+            font-size: 1.1rem;
+            border: none;
+            padding: 12px;
+            color: white;
+            border-radius: 4px;
+            margin-left: 13%;
+        }
+        .transparant{
+            background-color: transparent;
+            color: aliceblue;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border:1px solid white;
+            padding: 7px;
+            border-radius: 3px;
+            
+        }
+        .m-l{
+            margin-left: -20%;
+        }
+        a {
+            text-decoration: none;
+            /* margin-left: 10%; */
+        }
+        .info{
+            color: aliceblue;
+            /* background-color: darkcyan; */
+            width: fit-content;
+            height: fit-content;
+            padding: 20px;
+            text-align: center;
+            position: top;
+            position: absolute;
+            top: 30%;
+            left: 32%;
+        }
+        .info h1{
+            font-size: 3.2rem;
+            width:29rem
+        }
+        .info h5{
+            margin-top: 1%;
+            margin-left: -18%;
+            text-align: center;
+            font-family:monospace;
+            font-size: 1.2rem;
+        }
+        .info h6{
+            margin-top: 2%;
+            margin-bottom: 2%;
+            font-size: 1.2rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .email-box {
+            width: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+        input[type="email"] {
+            /* font-size: 2rem; */
+            padding: 15px;
+            width: 18rem;
+            border-radius: 2px;
+            border: none;
+            }
+        .btn1{
+            background-color: rgba(235, 17, 17, 0.836);
+            cursor: pointer;
+            font-size: 1.1rem;
+            border: none;
+            padding: 11.4px;
+            color: white;
+            border-radius: 4px;
+            margin-left: 3px;
+            }
+            .sec-body{
+                background: black;
+                display: flex;
+                justify-content: space-between;
+                color: aliceblue;
+            }
+            #vid {
+                position: absolute;
+                top: 110%;
+                left: 56%;
+                width: 29rem;
+                border-radius: 8px;
+            }
+            section{
+                border-bottom: 7px solid gray;
+                background:black;
+            }
+            .dis_img{
+                 z-index: 5;
+            }
+            .info2{
+                margin-top: 13%;
+                margin-left: 9%;
+            }
+            .down-stat{
+                display: flex;
+                flex-direction: column;
+                margin-left: 3%;
+                margin-top: 2%;
+
+            }
+            .download-box{
+                background-color:black;
+                color: aliceblue;
+                display: flex;
+                border: 2px solid gray;
+                width: 18rem;
+                border-radius: 8px;
+                padding: 8px;
+                position: absolute;
+                margin-top: -10%;
+                margin-left: 8%;
+                
+            }
+            #download{
+                color: rgb(85, 85, 245);
+            }
+            #d-arr{
+                font-size: 1.7rem;
+                margin-top: 4%;
+                margin-left: 7%;
+            }
+            .info3 {
+                margin-top: 16%;
+                margin-right: 5%;
+                width: 31rem;
+            }
+            .info4 {
+                margin-top: 14%;
+                margin-left: 5%;
+                width: 31rem;
+            }
+            #vid2{
+                position: absolute;
+                    left: 59%;
+                    width: 25rem;
+                    margin-top: 3%;
+            }
+            #faq_sec{
+                padding: 4%;
+            }
+            #faq_sec h1{
+                color: white;
+                text-align: center;
+                padding: 4%;
+                font-size: 2.4rem;
+            }
+            .accordion{
+                margin: auto;
+                color: white;
+            }
+            .accordion .item{
+                width:50%;
+                margin:auto;
+            }
+            .accordion h3{
+                font-size: 1.5rem;
+                padding: 10px;
+            }
+         #lasth4{
+                color: white;
+                text-align: center;
+                margin-top: 3%;
+            }
+            .item p{
+                background-color: rgb(172, 162, 162);
+                font-size: 1.8rem;
+                padding: 10px;
+                margin-top: 2px;
+                margin-bottom: 7px;
+            }
+            .para-text{
+                display: none;
+            }
+            .active{
+                display: block;
+            }
+            .label{
+                display: flex;
+                justify-content: space-between;
+                background-color: rgb(172, 162, 162);
+                margin-bottom: 16px;
+                cursor: pointer;
+            }
+            .openbox{
+                margin-top: 1%;
+                font-size: 2rem;
+                margin-right: 3%;
+            }
+            .bt{
+                margin-left: 29%;
+                margin-top: 1%;
+            }
+            .list-item{
+                display: flex;
+            }
+            footer{
+                padding: 4%;
+            }
+            footer h5{
+                margin-left: 12.3%;
+                color: aliceblue;
+            }
+            .list{
+                margin-left: 10%;
+                margin-top: 1%;
+            }
+            .list ul{
+                list-style: none;
+            }
+            .list li{
+                padding: 7px;
+                color: gray;
+            }
+            .list li:hover{
+                border-bottom: 1px solid white;
+                cursor: pointer;
+            }
+
+            @media(min-width:921px) and (max-width:933px){
+                #vid{
+                    top: 82%;
+                    left: 40%;
+                }
+                #vid2{
+                    left: 44%;
+                }
+            }
+            @media(min-width:934px) and (max-width:989px){
+                #vid{
+                    top: 82%;
+                    left: 44%;
+                }
+                #vid2{
+                    left: 48%;
+                }
+            }
+            @media(min-width:990px) and (max-width:1020px){
+                #vid{
+                    top: 82%;
+                    left: 45%;
+                }
+                #vid2{
+                    left: 48%;
+                }
+            }
+            @media(min-width:1021px) and (max-width:1200px){
+                #vid{
+                    top: 82%;
+                    left: 60%;
+                }
+                #vid2{
+                    left: 52%;
+                }
+            }

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Rajdhani', sans-serif;
+
+
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: cornflowerblue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 10vh;
+    z-index: 3;
+
+}
+
+.nav-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.navbar li {
+margin: 2% 2%;
+padding: 2px;
+font-weight: 800;
+cursor: pointer;
+text-align: center;
+
+}
+
+li button {
+background-color: white;
+border: none;
+padding: 4px;
+width: 4.5rem;
+color: cornflowerblue;
+font-weight: 800;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.search-box {
+display: flex;
+}
+
+input[type="search"] {
+border: none;
+padding: 4px 8px;
+font-size: 1.2rem;
+border-radius: 4px;
+cursor: pointer;
+width: 23rem;
+}
+
+#search{
+margin-left: 3%;
+}
+.main{
+    display: flex;
+}
+.filter-area{
+    /* background-color: aqua; */
+    height: 100vh;
+    position: fixed;
+    width: 20%;
+    /* left: 0; */
+    border: none;
+    box-shadow: 4px 2px 30px gray;
+    margin: 8% 1%;
+    padding: 3% 1%;
+}
+.filter-area h2{
+    margin-left: 5%;
+}
+.product-area{
+    box-shadow: 4px 2px 30px gray;
+    margin-top: 8%;
+    margin-left: 22%;
+    padding: 2%;
+    width: 80%;
+}
+.row{
+    display: flex;
+    padding: 2%;
+    align-items: center;
+}
+.img-box{
+    flex: 30%;
+}
+.info{
+    flex: 50%;
+}
+.price-info{
+    flex: 20%;
+}
+.row img{
+    width: 12rem;
+    height: 11rem;
+}
+.row .info{
+    margin: 0% 8%;
+    padding: 2%;
+}
+.drop-head{
+    cursor: pointer;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.drop{
+    margin-top: 25%;
+}
+.drop-block{
+    display: none;
+    transition: 0.15s ease-in;
+}
+.drop-block-on-off{
+    display: block;
+}
+input[type="checkbox"]{
+    width: 7rem;
+    height: 1rem;
+    margin-top: 3%;
+}
+input[type="checkbox"]:hover{
+    background-color: rgb(228, 20, 20);
+}
+.offer-green{
+    color: #388e3c;
+    font-weight: 600;
+}
+.prod-name{
+    font-weight: 800;
+}
+.row{
+    cursor: pointer;
+}
+.prod-name:hover{
+    color: cornflowerblue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

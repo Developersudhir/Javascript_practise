@@ -1,8 +1,10 @@
+// for dropdown
 const brnd=document.getElementById("brnd");
 const price=document.getElementById("price");
 const colr=document.getElementById("colr");
 const type=document.getElementById("type");
 const offers=document.getElementById("offers");
+
 brnd.addEventListener("click",()=>{
     document.getElementById("drop-block1").classList.toggle("drop-block-on-off");
 });
@@ -18,3 +20,8 @@ type.addEventListener("click",()=>{
 offers.addEventListener("click",()=>{
     document.getElementById("drop-block5").classList.toggle("drop-block-on-off");
 });
+
+//redirecting to sign page
+let redirectToSignIn=()=>{
+    window.location.href="../Html/signin.html";
+}

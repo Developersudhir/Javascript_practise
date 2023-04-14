@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>single product</title>
     <link rel="stylesheet" href="../Css/index.css">
     <link rel="stylesheet" href="../Css/singleproduct.css">
@@ -21,7 +21,7 @@
                 <div class="search-box"><input type="search" placeholder="Search for Products ,brands and more"><button
                         id="search">Search</button></div>
             </li>
-            <li><button>Log In</button></li>
+            <li><button onclick=redirectToSignIn()>Log In</button></li>
             <li><a href="../Html/cart.html" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
               </svg> Cart</a></li>
@@ -129,9 +129,10 @@
    </div>
 </div>
 </div>
-
 <script>
-    let imgEvent=document.getElementsByTagName("img");
+    
+// for changing  image by clicking small images
+let imgEvent=document.getElementsByTagName("img");
     console.log(imgEvent);
     let bg_img=document.getElementById("bg-img");
     let img1=document.getElementById("img1");
@@ -154,6 +155,10 @@
     let redirectToCart=()=>{
         window.location.href="../Html/cart.html";
     }
+    //redirecting to sign page
+let redirectToSignIn=()=>{
+    window.location.href="../Html/signin.html";
+}
 </script>
 </body>
 </html>

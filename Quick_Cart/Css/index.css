@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
-
-
 }
 
 html,body{
@@ -28,7 +26,7 @@ html,body{
     color: aliceblue;
 }
 
-li {
+.nav-item li {
     margin: 2% 2%;
     padding: 2px;
     font-weight: 800;
@@ -36,8 +34,11 @@ li {
     text-align: center;
 
 }
-
-li button {
+.nav-item li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-item li button {
     background-color: white;
     border: none;
     padding: 4px;
@@ -95,7 +96,6 @@ input {
     border: none;
     margin: 2% auto;
     height: 30vh;
-    /* margin: 2% 0%; */
     color: White;
     text-align: center;
     font-size: 10rem;

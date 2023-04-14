@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+main{
+    margin-top: 9%;
+}
+.prod-det{
+    display: flex;
+    margin-bottom: 5%;
+}
+.prod-det h3,h4{
+    margin: 3% 0%;
+}
+.prod-det img{
+    width: 12%;
+    height: 14vh;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 0% 7%;
+}
+.prod-info{
+    width: 40%;
+}
+.price-quantity{
+    display: flex;
+    align-items: center;
+}
+.price-quantity h2{
+    margin: 0% 4%;
+    width: 4rem;
+}
+.price-quantity button{
+    width: 7rem;
+    padding: 2%;
+    margin: 0% 7%;
+    cursor: pointer;
+}

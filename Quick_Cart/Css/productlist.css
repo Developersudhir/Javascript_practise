@@ -4,8 +4,6 @@
     box-sizing: border-box;
     /* font-family: 'Roboto Condensed', sans-serif; */
     font-family: 'Rajdhani', sans-serif;
-
-
 }
 
 html,
@@ -39,6 +37,10 @@ cursor: pointer;
 text-align: center;
 
 }
+li a{
+    text-decoration: none;
+    color: white;
+}
 
 li button {
 background-color: white;
@@ -71,11 +73,9 @@ margin-left: 3%;
     display: flex;
 }
 .filter-area{
-    /* background-color: aqua; */
     height: 100vh;
     position: fixed;
     width: 20%;
-    /* left: 0; */
     border: none;
     box-shadow: 4px 2px 30px gray;
     margin: 8% 1%;
@@ -122,11 +122,11 @@ margin-left: 3%;
     margin-top: 25%;
 }
 .drop-block{
-    display: none;
+    display: block;
     transition: 0.15s ease-in;
 }
 .drop-block-on-off{
-    display: block;
+    display: none;
 }
 input[type="checkbox"]{
     width: 7rem;

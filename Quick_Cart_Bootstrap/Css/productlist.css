@@ -21,6 +21,9 @@ body {
     z-index: 3;
 
 }
+.navbar ul{
+    margin-top: -1%;
+}
 
 .nav-item {
     list-style: none;
@@ -78,7 +81,7 @@ margin-left: 3%;
     width: 20%;
     border: none;
     box-shadow: 4px 2px 30px gray;
-    margin: 8% 1%;
+    margin: 3% 1%;
     padding: 3% 1%;
 }
 .filter-area h2{
